@@ -27,17 +27,23 @@ performance trends, and attrition drivers, built on a star-schema data model.
 ## Pages
 
 ### 1. Overview
+![Overview page](Overview.png)
+
 KPI cards, employee hiring trends over time (by year/quarter/month/day,
 split by attrition status), active headcount by department, and a treemap
 of department × job role.
 
 ### 2. Demographics
+![Demographics page](Demographics.png)
+
 Youngest/oldest employee, age distribution, age × gender split (100%
 stacked column), marital status breakdown, and ethnicity vs. average
 salary — the latter specifically surfaces potential pay-disparity patterns
 across groups.
 
 ### 3. Performance Tracker
+![Performance Tracker page](Performance_Tracker.png)
+
 The most detailed page: start date / last review / next review cards,
 plus six parallel line charts tracking satisfaction and rating trends —
 job satisfaction, relationship satisfaction, self-rating, work-life
@@ -45,6 +51,8 @@ balance, manager rating, and environment satisfaction — alongside two
 detail tables. Includes a slicer for filtering by employee/department.
 
 ### 4. Attrition
+![Attrition page](Attrition.png)
+
 Attrition by hire-date cohort, by business travel frequency, by overtime
 requirement, and by tenure — testing the classic HR churn drivers
 (travel burden, overtime load, tenure stage) against actual attrition
